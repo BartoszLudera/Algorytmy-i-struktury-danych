@@ -1,0 +1,8 @@
+Komponenty tablicy haszującej z adresowaniem otwartym:
+
+- tablica z danymi,
+- funkcja dodająca elementy do tablicy (Insert),
+- funkcja szukająca danego elementu w tablicy (Search),
+- funkcja usuwająca element o zadanym indeksie,
+- funkcja skrótu,
+- funkcja przyrostu.

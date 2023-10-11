@@ -1,0 +1,7 @@
+Metody klasy implementującej kolejkę:
+
+- void put(element x) - dodaje element do kolejki,
+- element get() - pobiera (i usuwa) pierwszy element z kolejki,
+- element front() - zwraca element znajdujący się na początku kolejki (bez usuwania),
+- void makenull() - usuwa wszystkie elementy z kolejki,
+- boolean empty() - sprawdza, czy kolejka jest pusta.

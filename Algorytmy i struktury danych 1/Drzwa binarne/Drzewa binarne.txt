@@ -1,0 +1,9 @@
+Algorytmy przechodzenia drzew:
+
+DFS (depth-first search):
+- in-order,
+- pre-order,
+- post-order.
+
+BFS (breadth-first search):
+- level-order.

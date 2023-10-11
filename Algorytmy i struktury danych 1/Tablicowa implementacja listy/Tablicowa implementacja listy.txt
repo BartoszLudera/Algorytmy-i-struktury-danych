@@ -1,0 +1,13 @@
+Proszę napisać tablicową implementację listy przechowującej dowolny typ danych.
+Rozwiązanie należy przysłać w pojedynczym pliku cpp.
+
+Metody listy:
+
+First() - zwraca pozycję elementu pierwszego -(indeks 0).
+END() - zwraca pozycję za ostatnim elementem (czyli last+1).
+Next(p) -zwraca indeks następnego elementu po p (czyli p+1): -jeśli istnieje element następny, to zwróć jego indeks -jeśli nie istnieje element następny, to zwróć -1.
+Previous(p) - zwraca indeks poprzedniego elementu w stosunku do p (czyli p-1) -jeśli istnieje element poprzedni, to zwróć jego indeks -jeśli nie istnieje element poprzedni, to zwróć -1.
+Insert(x,p) - wstawia x do komórki o numerze p ( o ile się da): -sprawdź, czy jest miejsce w tablicy -sprawdź, czy pozycja p jest poprawna -przesuń elementy w tablicy, aby komórka p była pusta -wstaw x do komórki p -zwiększ last -zwróć true gdy operacja wstawiania się powiedzie, false wpp.
+Delete(p) - usuwa element z komórki o numerze p: -sprawdź, czy pozycja p jest poprawna -przesuń elementy w "górę" tablicy -zmniejsz last -zwróć true gdy operacja usuwania się powiedzie, false wpp.
+Locate(x) - zwraca pozycję elementu x w liście (indeks komórki), jeśli x występuje w tablicy. -zwraca END() (pozycję za ostatnim elementem) gdy x nie występuje w tablicy.
+Retrieve(p) - zwraca wskaźnik elementu znajdującego się w liście na pozycji p(w komórce p), jeśli pozycja p jest poprawna - zwraca nullptr w przeciwnym przypadku.
